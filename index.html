@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="menu.css">
+    <style>
+        body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header h1 {
+    font-family: 'EB Garamond', cursive;
+    font-size: 3.5em;
+    color: #c0392b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Menu Section Styling */
+.menu-section {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+}
+
+.menu-section h2 {
+    font-size: 2em;
+    color: #c0392b;
+    margin-bottom: 20px;
+}
+
+/* Menu Item Styling */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease-in-out;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-item:hover {
+    background-color: #771818;
+}
+
+.item-name {
+    font-weight: 700;
+}
+
+.item-price {
+    font-weight: 400;
+    color: #777;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    .menu-section h2 {
+        font-size: 1.5em;
+    }
+
+    .menu-item {
+        font-size: 1em;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FULL BATTING</h1>
+        </header>
+        <main>
+            <section class="menu-section">
+                <h2>Starters</h2>
+                <div class="menu-item">
+                    <span class="item-name">panner dry</span>
+                    <span class="item-price">₹140</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Garlic Bread</span>
+                    <span class="item-price">₹100</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">tomato soup</span>
+                    <span class="item-price">₹100</span>
+                </div>
+            </section>
+            <section class="menu-section">
+                <h2>Main Courses</h2>
+                <div class="menu-item">
+                    <span class="item-name">VEG Pizza</span>
+                    <span class="item-price">₹200 Min</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">MAGGIE</span>
+                    <span class="item-price">₹50</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">PASTA</span>
+                    <span class="item-price">₹200 Min</span>
+                </div>
+            </section>
+            <section class="menu-section">
+                <h2>INDIAN Desserts</h2>
+                <div class="menu-item">
+                    <span class="item-name">Champakali</span>
+                    <span class="item-price">₹99</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Mysuru pak</span>
+                    <span class="item-price">₹99</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kalju katli</span>
+                    <span class="item-price">₹50</span>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>© 2024 full batting Menu</p>
+        </footer>
+    </div>
+</body>
+</html>
